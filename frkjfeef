@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Моя личная страница</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f0f0f0;
+            color: #333;
+        }
+        .container {
+            max-width: 800px;
+            margin: 20px auto;
+            padding: 20px;
+            background-color: #fff;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0,0,0,0.1);
+        }
+        h1, h2, p {
+            margin-bottom: 20px;
+        }
+        .scp-link {
+            display: block;
+            margin-bottom: 10px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Моя личная веб-страница</h1>
+        <h2>Информация о Фонде SCP</h2>
+        <p>Фонд SCP (Secure, Contain, Protect) – это организация, которая занимается изучением и обеспечением безопасности аномальных объектов. Основная цель Фонда - защита человечества от аномалий и сохранение нормальности.</p>
+        <h2>Список аномальных объектов:</h2>
+        <a class="scp-link" href="scp-001.html">SCP-001</a>
+        <a class="scp-link" href="scp-002.html">SCP-002</a>
+        <a class="scp-link" href="scp-003.html">SCP-003</a>
+        <!-- Здесь можно добавить ссылки на остальные аномальные объекты -->
+    </div>
+</body>
